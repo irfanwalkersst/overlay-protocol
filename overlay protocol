@@ -1,0 +1,38 @@
+**Thread: Exploring Overlay Protocol with Move Language Integration 🚀**
+
+1/6 🌐 **Introduction to Overlay Protocol**  
+Overlay Protocol provides advanced infrastructure for scalable and secure DeFi applications. It leverages Move language for enhanced smart contract functionality and security.
+
+2/6 🗂️ **Move Language Overview**  
+Move is a statically-typed programming language designed for secure smart contracts and blockchain operations. It features strong type safety and formal verification to ensure reliable execution.
+
+3/6 🔍 **Move Features in Overlay Protocol**  
+- **Resource Types:** Prevents asset duplication and enforces correct usage.
+- **Formal Verification:** Ensures smart contract logic is free of vulnerabilities through mathematical proofs.
+
+4/6 🛠️ **Example Code from GitHub**  
+Here’s a snippet of Overlay Protocol’s Move-based smart contract, showcasing basic operations:
+
+```move
+module OverlayProtocol::Vault {
+    public fun deposit(amount: u64) {
+        // Code to deposit assets into the vault
+    }
+
+    public fun withdraw(amount: u64) {
+        // Code to withdraw assets from the vault
+    }
+
+    public fun get_balance(): u64 {
+        // Code to check the balance in the vault
+    }
+}
+```
+
+5/6 🔧 **Integration Details**  
+The integration with Move enhances Overlay Protocol’s capabilities by ensuring security and efficiency. Move’s formal verification helps in validating complex DeFi logic, while resource types prevent misuse of assets.
+
+6/6 🔗 **Explore More**  
+For detailed technical documentation and code, visit our [GitHub repository](https://github.com/OverlayProtocol/overlay-protocol) and check out the Move language [documentation](https://github.com/libra/move). 
+
+Stay tuned for more updates and deep dives into Overlay Protocol! 🌟
